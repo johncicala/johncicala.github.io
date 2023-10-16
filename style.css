@@ -3,3 +3,13 @@ body {
   font-family: Arial;
 
 }
+h1 {
+  color: maroon;
+  text-align: center;
+}
+.assign {
+  background-color: lightblue;
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+}
