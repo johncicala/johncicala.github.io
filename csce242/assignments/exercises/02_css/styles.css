@@ -8,6 +8,20 @@ div {
     padding : 5px;
     margin : 20px auto;
     width : 70%;
+    border-radius: 10px;
+}
+#main-nav li {
+    list-style-type: none;
+    display:inline-block; /*Appear on one line */
+}
+#main-nav a {
+    text-decoration : none;
+    background : #FF8DA1;
+    color : white;
+}
+#main-nav a:hover {
+    background : black;
+    color : pink;
 }
 
 h1 {
