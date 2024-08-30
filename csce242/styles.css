@@ -1,0 +1,20 @@
+body {
+    background-color: lightblue;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333333;
+   
+}
+
+div {
+    background: white;
+}
+
+#content h1 {
+    color: darkblue;
+    text-align: center;
+}
+
+#content a {
+    text-decoration: none;
+    color: black;
+}
