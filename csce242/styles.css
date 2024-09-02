@@ -29,7 +29,7 @@ main {
     display: flex;
     flex-direction: row;
     background-color: white;
-    border: 1px solid white;
+    border: 1px solid blue;
     margin: 10px;
     padding: 20px;
     width: 80%;
@@ -57,7 +57,6 @@ footer {
     bottom: 0;
 }
 
-/* Responsive layout */
 @media (max-width: 762px) {
     .assignment {
         flex-direction: column;
