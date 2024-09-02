@@ -1,0 +1,100 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer {
+    background-color: gray;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+nav {
+    background-color: gray;
+    color: white;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+}
+
+nav ul li {
+    flex: 1;
+    text-align: center;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+}
+
+nav ul li a:hover {
+    background-color: lightblue;
+}
+
+section.content {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+article, section.extra-section, aside {
+    flex: 1;
+    padding: 20px;
+    margin-right: 20px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+article {
+    background-color: white;
+}
+
+section.extra-section {
+    background-color: red;
+    color: white;
+    border: 1px solid red;
+}
+
+aside {
+    background-color: darkgreen;
+    color: white;
+    border: 1px solid blue;
+}
+
+footer {
+    margin-top: 20px;
+}
+
+@media (max-width: 762px) {
+    nav ul {
+        flex-direction: column;
+    }
+
+    section.content {
+        flex-direction: column;
+    }
+
+    article, section.extra-section, aside {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+}
