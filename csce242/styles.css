@@ -1,20 +1,71 @@
+/* General styles */
 body {
-    background-color: lightblue;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #333333;
-   
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    color: gray;
 }
 
-div {
-    background: white;
-}
-
-#content h1 {
-    color: darkblue;
+header {
+    background-color: blue;
+    color: white;
+    padding: 20px;
     text-align: center;
 }
 
-#content a {
-    text-decoration: none;
-    color: black;
+h1, h2 {
+    margin: 0;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.assignment {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    border: 1px solid white;
+    margin: 10px;
+    padding: 20px;
+    width: 80%;
+    box-shadow: 0 0 10px black;
+}
+
+.assignment img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.description {
+    flex: 1;
+}
+
+footer {
+    background-color: lightblue;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Responsive layout */
+@media (max-width: 762px) {
+    .assignment {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .assignment img {
+        margin-bottom: 20px;
+    }
 }
