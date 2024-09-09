@@ -1,4 +1,4 @@
-/* General Styles */
+
 * {
     margin: 0;
     padding: 0;
@@ -94,12 +94,12 @@ body {
 
 .hero-content p {
     font-size: 1.2rem;
-    padding-bottom: 0; /* Adjust the value as needed */
+    padding-bottom: 0; 
     
     
 }
 
-/* Main Content Section */
+
 .content {
     padding: 3rem 0;
     background-color: #f4f4f4;
@@ -138,7 +138,7 @@ body {
 
 .card a {
     display: inline-block;
-    background-color: #0091DA; /* USC light blue */
+    background-color: #0091DA; 
     color: white;
     padding: 0.5rem 1rem;
     text-decoration: none;
@@ -147,13 +147,13 @@ body {
 }
 
 .card a:hover {
-    background-color: #005cbf; /* Darker blue for hover */
+    background-color: #005cbf; 
     transition: background-color 0.3s ease;
 }
 
-/* Footer Styles */
+
 footer {
-    background-color: #73000A; /* Dark Blue */
+    background-color: #73000A;
     color: white;
     padding: 1.5rem 0;
     text-align: center;
@@ -165,54 +165,60 @@ footer p {
 }
 
 .degree {
-    display: flex;                /* Aligns the image and content side by side */
-    gap: 2rem;                    /* Adds spacing between the two divs */
-    align-items: center;          /* Vertically centers content */
+    display: flex;             
+    gap: 2rem;                    
+    align-items: center;          
     padding: 2rem; 
-    background-color: #73000A;               /* Adds padding to the section */
+    background-color: #73000A;               
 }
 
 .degproone img {
-    max-width: 100%;              /* Ensures image is responsive */
-    height: auto;                 /* Maintain aspect ratio */
+    max-width: 100%;             
+    height: auto;                 
 }
 
 .degprotwo {
     text-align: center;
-    background-color: #73000A;           /* Center align the text */
+    background-color: #73000A;           
 }
 
 #thetop {
-    font-size: 2.5rem;            /* Large font size for the title */
-    font-weight: bold;            /* Make the text bold */
-    margin-bottom: 1rem;          /* Adds space between the title and the paragraph */
+    font-size: 2.5rem;            
+    font-weight: bold;            
+    margin-bottom: 1rem;         
 }
 
 .degprotwo p {
-    font-size: 1rem;              /* Smaller font size for the paragraph */
+    font-size: 1rem;          
     line-height: 1.5;  
-    color: white;           /* Spacing between lines in the paragraph */
+    color: white;           
 }
 
 .application-box {
-    background-color: black;      /* Black background */
-    color: white;                 /* White text */
-    padding: 15px 30px;           /* Padding inside the box */
-    border: 2px solid white;      /* White border */
-    display:inline-flex;        /* Shrink the box to fit the text */
-    font-size: 1.2rem;            /* Font size for readability */
-    font-weight: bold;            /* Make text bold */
-    cursor: pointer;              /* Change cursor to pointer */
-    transition: background-color 0.3s ease; /* Smooth background transition */
+    background-color: black;    
+    color: white;                 
+    padding: 15px 30px;          
+    border: 2px solid white;      
+    display:inline-flex;       
+    font-size: 1.2rem;            
+    font-weight: bold;          
+    cursor: pointer;            
+    transition: background-color 0.3s ease; 
 }
 
 .application-box:hover {
-    background-color: #333;       /* Darker background on hover */
+    background-color: #333;       
 }
 
-.investment {
+.investment h1{
     background-color: #ececec;
     height: 45vh;
     color: #73000A;
+    text-align: center;
+}
+.investment p {
+    background-color: #ececec;
+    height: 45vh;
+    color: black;
     text-align: center;
 }
