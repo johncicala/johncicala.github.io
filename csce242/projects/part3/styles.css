@@ -1,0 +1,130 @@
+:root {
+    --background-color: white;
+    --text-color: black;
+    --link-color: black;
+    --menu-hover-color: grey;
+    --border-color: white;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    text-align: center;
+    padding: 20px 0;
+    background-color: var(--text-color);
+    color: var(--background-color);
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: var(--background-color);
+    border-bottom: 1px solid var(--border-color);
+    padding: 15px;
+}
+
+nav a {
+    margin: 0 20px;
+    text-decoration: underline;
+    color: var(--link-color);
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.img {
+    text-align: center;
+}
+
+nav a:hover {
+    color: var(--menu-hover-color);
+}
+
+.container {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 40px;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+ul {
+    text-decoration: underline;
+    padding: 0;
+}
+
+ul li {
+    padding: 10px;
+    border-bottom: 1px solid var(--border-color);
+    font-size: 18px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: var(--link-color);
+}
+
+ul li a:hover {
+    color: var(--menu-hover-color);
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: var(--text-color);
+    color: var(--background-color);
+    width: 100%;
+}
+
+h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav a {
+        margin: 10px 0;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    p {
+        font-size: 1em;
+    }
+}

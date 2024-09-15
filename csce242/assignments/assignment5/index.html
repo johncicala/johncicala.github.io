@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Assignment 7</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <section class="top">
+        <h1>Assignment 7: Introduction to JavaScript</h1>
+    </section>
+    
+    <section class="bottom">
+        <div class="main">
+            <div class="column">
+                <div class="countcol" >
+                    <h3>Count</h3>
+                    <button id="count">0</button>
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="imagecol">
+                    <h3>Random Image</h3>
+                    <img src="https://picsum.photos/200" alt="Random Image" onclick="refreshImage()">
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="slidercol">
+                    <h3>Slider Move</h3>
+                    <input type="range" id="slider" min="0" max="100" value="0" oninput="moveSquare(this.value)">
+                    <div id="square"><img src="https://place-hold.it/200" alt="pic"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>@johncicala</footer>
+
+    <script src="javascript.js"></script>
+</body>
+</html>
