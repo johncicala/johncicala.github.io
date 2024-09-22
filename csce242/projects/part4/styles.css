@@ -1,0 +1,165 @@
+:root {
+    --background-color: #c4a484;
+    --text-color: #5c4033;
+    --link-color: #5c4033;
+    --menu-hover-color: grey;
+    --border-color: #5c4033;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    text-align: center;
+    padding: 20px 0;
+    background-color: var(--text-color);
+    color: var(--background-color);
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: var(--background-color);
+    border-bottom: 1px solid var(--border-color);
+    padding: 15px;
+}
+
+nav a {
+    margin: 0 20px;
+    text-decoration: underline;
+    color: var(--link-color);
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.img {
+    text-align: center;
+}
+
+nav a:hover {
+    color: var(--menu-hover-color);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 40px;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container2 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 40px;
+    max-width: 500px;
+    max-height: 500px;
+    margin: 0 auto;
+}
+
+.menu-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.menu-item {
+    padding: 20px;
+    border: 1px solid var(--border-color);
+    border-radius: 10px;
+    text-align: center;
+    background-color: wheat;
+}
+
+.menu-item img {
+    max-width: 100px;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+ul {
+    text-decoration: underline;
+    padding: 0;
+}
+
+ul li {
+    padding: 10px;
+    border-bottom: 1px solid var(--border-color);
+    font-size: 18px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: var(--link-color);
+}
+
+ul li a:hover {
+    color: var(--menu-hover-color);
+}
+
+footer {
+    text-align: center;
+    padding: 0px ;
+    background-color: var(--text-color);
+    color: var(--background-color);
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    max-height: 1;
+}
+
+h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav a {
+        margin: 10px 0;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    p {
+        font-size: 1em;
+    }
+}
+
+#app a {
+    text-decoration: none;
+    color: #5c4033;
+}
+
+#app a:hover {
+    text-decoration: underline;
+    color: wheat;
+}
