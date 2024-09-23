@@ -155,7 +155,7 @@ p {
 }
 
 #app a {
-    text-decoration: none;
+    text-decoration: underline;
     color: #5c4033;
 }
 
