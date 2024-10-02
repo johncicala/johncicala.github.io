@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #7c40bf;
+    text-align: center;
+}
+
+h1, h2 {
+    color: yellow;
+}
+
+.input-container {
+    margin: 20px 0;
+}
+
+#starCount {
+    width: 50px;
+    padding: 5px;
+    color: yellow;
+    background-color: black;
+}
+
+.starCountLabel {
+    color: yellow;
+}
+
+#btn {
+    background-color: green;
+    color: black;
+    padding: 5px;
+}
+
+#btn:hover {
+    background-color: lightgreen;
+}
+
+.box {
+    width: 500px;
+    height: 500px;
+    background-color: black;
+    margin: auto;
+    position: relative;
+    border: 5px solid white;
+}
+
+.star {
+    color: yellow;
+    font-size: 20px;
+    position: absolute;
+}
+
+#error-message {
+    color: red;
+    margin-top: 10px;
+}
+
+#starData {
+    margin-top: 20px;
+    color: yellow;
+}
+
+footer {
+    margin-top: 30px;
+    color: yellow;
+}
+
+

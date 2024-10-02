@@ -1,0 +1,45 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    background-color: #4c956c;
+  }
+  
+  h1 {
+    color: black;
+  }
+  
+  h2 {
+    color: black;
+  }
+  
+  .description {
+    margin-top: 10px;
+    display: none; 
+    color: black;
+    text-decoration: underline;
+  }
+  
+  .main {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .img {
+    margin: 10px;
+    width: 30%; 
+    float: left; 
+  }
+  
+  .img img {
+    width: 100%;
+    height: auto;
+    border: 5px solid black;
+  }
+  
+  footer {
+    margin-top: 20px;
+  }
+  
