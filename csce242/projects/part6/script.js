@@ -1,16 +1,16 @@
 document.addEventListener("DOMContentLoaded", async function () {
     try {
-        const response = await fetch('dinner.json');  
+        let response = await fetch('dinner.json');  
         if (!response.ok) {
             throw new Error('Failed');
         }
         
-        const data = await response.json(); 
+        let x = await response.json(); 
         
-        const menuGrid = document.getElementById('menu-grid');
+        let menuGrid = document.getElementById('menu-grid');
 
-        data.forEach(item => {
-            const menuItem = `
+        x.forEach(item => {
+            let menuItem = `
                 <div class="menu-item">
                     <img src="images/${item.img_name}" alt="${item.name}">
                     <h3>${item.name}</h3>
