@@ -1,0 +1,67 @@
+[
+    {
+      "_id": 1,
+      "name": "Cicala's Burger",
+      "img_name": "hamburger.jpg",
+      "description": "Our specialty, signature hamburger served with your choice of fries or chips.",
+      "price": "$10.00",
+      "ingredients": ["Beef patty", "Lettuce", "Tomato", "Cheese"]
+    },
+    {
+      "_id": 2,
+      "name": "Vodka Pasta",
+      "img_name": "vodkapasta.jpeg",
+      "description": "Penne pasta served in a delicious vodka and tomato sauce. Served with parmesan cheese.",
+      "price": "$12.00",
+      "ingredients": ["Penne", "Vodka sauce", "Parmesan cheese"]
+    },
+    {
+      "_id": 3,
+      "name": "Jumbo Chicken Wings",
+      "img_name": "wings.jpg",
+      "description": "8 of our jumbo size chicken wings cooked to perfection. Your choice of BBQ or Buffalo sauce.",
+      "price": "$15.00",
+      "ingredients": ["Chicken wings", "BBQ sauce", "Buffalo sauce"]
+    },
+    {
+      "_id": 4,
+      "name": "Chicken Quesadilla",
+      "img_name": "quesa.jpg",
+      "description": "3 cheese quesadilla filled with seasoned chicken. Served with sour cream, salsa, and guacamole.",
+      "price": "$18.00",
+      "ingredients": ["Chicken", "Cheese", "Tortilla", "Salsa", "Guacamole"]
+    },
+    {
+      "_id": 5,
+      "name": "Build your own pizza",
+      "img_name": "pizza.jpeg",
+      "description": "One of our famous bar pies. Thin crust with garlic seasoning. Add any toppings or cheese.",
+      "price": "$19.00",
+      "ingredients": ["Pizza dough", "Cheese", "Tomato sauce", "Garlic"]
+    },
+    {
+      "_id": 6,
+      "name": "Caesar Salad",
+      "img_name": "salad.jpg",
+      "description": "Large Caesar salad with fresh lettuce and homemade dressing, topped with croutons and black pepper.",
+      "price": "$15.00",
+      "ingredients": ["Lettuce", "Caesar dressing", "Croutons", "Black pepper"]
+    },
+    {
+      "_id": 7,
+      "name": "British Fish and Chips",
+      "img_name": "fishchip.jpg",
+      "description": "British-style fish and chips. Beer-battered cod served with fries and tartar sauce.",
+      "price": "$20.00",
+      "ingredients": ["Cod", "Fries", "Tartar sauce"]
+    },
+    {
+      "_id": 8,
+      "name": "Sides",
+      "img_name": "fries.jpeg",
+      "description": "French fries, onion rings, jalapeño poppers, mozzarella sticks.",
+      "price": "$5.00 Each",
+      "ingredients": ["Fries", "Onion rings", "Jalapeño poppers", "Mozzarella sticks"]
+    }
+  ]
+  
