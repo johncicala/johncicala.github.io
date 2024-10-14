@@ -140,3 +140,39 @@ p {
         font-size: 1em; 
     }
 }
+
+.hamburger {
+    display: none; 
+    font-size: 30px;
+    cursor: pointer;
+    color: var(--text-color);
+    background-color: var(--background-color);
+    border: none;
+    padding: 10px;
+    margin: 15px;
+    transition: background-color 0.3s;
+}
+
+@media (max-width: 768px) {
+    
+    .hamburger {
+        display: block;
+    }
+
+    nav {
+        display: none; 
+        flex-direction: column;
+        text-align: center;
+        background-color: var(--background-color);
+        padding: 10px;
+    }
+
+    nav a {
+        margin: 10px 0;
+        font-size: 18px;
+    }
+
+    nav.active {
+        display: flex; 
+    }
+}
