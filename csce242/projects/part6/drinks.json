@@ -5,7 +5,7 @@
         "img_name": "beer.jpg",
         "description": "Get a pint of any beer for the same price!",
         "price": "$5.00",
-        "ingredients": ["Beer"]
+        "ingredients": ["Miller lite, Bud lite, Corona"]
     },
     {
         "_id": 2,
@@ -13,7 +13,7 @@
         "img_name": "shot.jpg",
         "description": "Get a shot of any liquor for the same price! House liquor discounted.",
         "price": "$6.00, House: $5.00",
-        "ingredients": ["Liquor", "House liquor"]
+        "ingredients": ["House Liquor", "Vodka", "Tequila", "Whiskey"]
     },
     {
         "_id": 3,
@@ -37,7 +37,7 @@
         "img_name": "mrag2.jpg",
         "description": "Served with salt or sugar. Frozen or on the rocks.",
         "price": "$9.00",
-        "ingredients": ["Tequila", "Lime", "Triple sec", "Salt or sugar"]
+        "ingredients": ["Tequila", "Lime", "Triple sec", "Salt/sugar"]
     },
     {
         "_id": 6,
@@ -45,7 +45,7 @@
         "img_name": "tai.jpg",
         "description": "Made with house rum. Smoky and sweet.",
         "price": "$7.00",
-        "ingredients": ["Rum", "Lime", "Almond syrup", "Orange curacao"]
+        "ingredients": ["Rum", "Lime", "Syrup", "Orange curacao"]
     },
     {
         "_id": 7,
