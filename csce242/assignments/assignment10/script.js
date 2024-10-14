@@ -10,10 +10,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             const iceCreamDiv = document.createElement('div');
             iceCreamDiv.classList.add('item');
 
-            iceCreamDiv.innerHTML = `
-                <img src="https://portiaportia.github.io/json/images/ice-creams/${iceCream.image}" alt="${iceCream.name}">
-                <div class="overlay">${iceCream.name}</div>
-            `;
+            iceCreamDiv.innerHTML = `<img src="https://portiaportia.github.io/json/images/ice-creams/${iceCream.image}" alt="${iceCream.name}"><div class="overlay">${iceCream.name}</div>`;
 
             iceCreamGrid.appendChild(iceCreamDiv);
         });
