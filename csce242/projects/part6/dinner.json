@@ -5,7 +5,7 @@
       "img_name": "hamburger.jpg",
       "description": "Our specialty, signature hamburger served with your choice of fries or chips.",
       "price": "$10.00",
-      "ingredients": ["Beef patty", "Lettuce", "Tomato", "Cheese"]
+      "ingredients": ["Beef", "Lettuce", "Tomato", "Onion", "Cheese"]
     },
     {
       "_id": 2,
@@ -13,7 +13,7 @@
       "img_name": "vodkapasta.jpeg",
       "description": "Penne pasta served in a delicious vodka and tomato sauce. Served with parmesan cheese.",
       "price": "$12.00",
-      "ingredients": ["Penne", "Vodka sauce", "Parmesan cheese"]
+      "ingredients": ["Penne", "Homemade Vodka sauce", "Parmesan cheese"]
     },
     {
       "_id": 3,
@@ -29,7 +29,7 @@
       "img_name": "quesa.jpg",
       "description": "3 cheese quesadilla filled with seasoned chicken. Served with sour cream, salsa, and guacamole.",
       "price": "$18.00",
-      "ingredients": ["Chicken", "Cheese", "Tortilla", "Salsa", "Guacamole"]
+      "ingredients": ["Chicken", "Cheese", "Tortilla"]
     },
     {
       "_id": 5,
@@ -37,7 +37,7 @@
       "img_name": "pizza.jpeg",
       "description": "One of our famous bar pies. Thin crust with garlic seasoning. Add any toppings or cheese.",
       "price": "$19.00",
-      "ingredients": ["Pizza dough", "Cheese", "Tomato sauce", "Garlic"]
+      "ingredients": ["Dough", "Cheese", "Tomato sauce", "Garlic"]
     },
     {
       "_id": 6,
@@ -53,13 +53,13 @@
       "img_name": "fishchip.jpg",
       "description": "British-style fish and chips. Beer-battered cod served with fries and tartar sauce.",
       "price": "$20.00",
-      "ingredients": ["Cod", "Fries", "Tartar sauce"]
+      "ingredients": ["Fresh Cod", "Fries(Chips)", "Tartar sauce"]
     },
     {
       "_id": 8,
       "name": "Sides",
       "img_name": "fries.jpeg",
-      "description": "French fries, onion rings, jalapeño poppers, mozzarella sticks.",
+      "description": "French fries, onion rings, jalapeño poppers, or mozzarella sticks.",
       "price": "$5.00 Each",
       "ingredients": ["Fries", "Onion rings", "Jalapeño poppers", "Mozzarella sticks"]
     }

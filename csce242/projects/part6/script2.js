@@ -1,12 +1,12 @@
 document.addEventListener("DOMContentLoaded", async function () {
     try {
-        const response = await fetch('dinner.json');  
+        const response = await fetch('drinks.json'); 
         if (!response.ok) {
-            throw new Error('Network response was not ok');
+            throw new Error('Failed to fetch drinks data');
         }
-        
-        const data = await response.json(); 
-        
+
+        const data = await response.json();  
+
         const menuGrid = document.getElementById('menu-grid');
 
         data.forEach(item => {
@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", async function () {
                     <h3>${item.name}</h3>
                     <p>${item.description}</p>
                     <p>Price: ${item.price}</p>
-                    <p>Main Ingredients: ${item.ingredients.join(', ')}</p>
+                    <p>Ingredients: ${item.ingredients.join(', ')}</p>
                 </div>
             `;
             menuGrid.innerHTML += menuItem;
