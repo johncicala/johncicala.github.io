@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", async function () {
     try {
         const response = await fetch('drinks.json'); 
         if (!response.ok) {
-            throw new Error('Failed to fetch drinks data');
+            throw new Error('Failed');
         }
 
         const data = await response.json();  
