@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Contact Us - Cicala's Restaurant & Bar</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+    <h1>Contact Us</h1>
+    <div class="hamburger" id="hamburger">&#9776;</div>
+</header>
+
+<nav id="nav-menu">
+    <a href="index.html">Home</a>
+    <a href="dinner.html">Dinner Menu</a>
+    <a href="drinks.html">Drink Menu</a>
+    <a href="review.html">Leave a Review</a>
+    <a href="job.html">Job Opportunities</a>
+    <a href="contact.html">Contact Us</a>
+</nav>
+
+<div class="container">
+    <h2>Contact Us</h2>
+    <form id="emailSubmission">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" required></textarea>
+
+        <button type="submit">Send Message</button>
+    </form>
+    <div id="formMessage" class="message"></div>
+</div>
+
+<div class="container">
+    <h2>Find Us Here!</h2>
+    <div class="iframe">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3259.6775946903085!2d-80.81637952377068!3d35.2144988727414!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88569fff1a1406c7%3A0x4a46c106f4a822ed!2s2100%20Bay%20St%2C%20Charlotte%2C%20NC%2028205!5e0!3m2!1sen!2sus!4v1730077492941!5m2!1sen!2sus"
+            allowfullscreen=""
+            loading="lazy">
+        </iframe>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2024 Cicala's Restaurant & Bar</p>
+</footer>
+
+<script src="script.js"></script>
+<script src="hamburger.js"></script>
+<script src="contact.js"></script>
+</body>
+</html>

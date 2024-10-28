@@ -1,0 +1,66 @@
+[
+    {
+        "_id": 1,
+        "name": "Any beer",
+        "img_name": "beer.jpg",
+        "description": "Get a pint of any beer for the same price!",
+        "price": "$5.00",
+        "ingredients": ["Miller lite, Bud lite, Corona"]
+    },
+    {
+        "_id": 2,
+        "name": "Liquor shots",
+        "img_name": "shot.jpg",
+        "description": "Get a shot of any liquor for the same price! House liquor discounted.",
+        "price": "$6.00, House: $5.00",
+        "ingredients": ["House Liquor", "Vodka", "Tequila", "Whiskey"]
+    },
+    {
+        "_id": 3,
+        "name": "Bloody Mary",
+        "img_name": "bloodymary.jpg",
+        "description": "Tomatoes and tobasco. Bacon and shrimp optional.",
+        "price": "$8.00",
+        "ingredients": ["Tomato juice", "Tabasco", "Bacon", "Shrimp"]
+    },
+    {
+        "_id": 4,
+        "name": "Minty Mojito",
+        "img_name": "mojito.jpg",
+        "description": "Our specialty. Minty and fresh.",
+        "price": "$8.50",
+        "ingredients": ["Mint", "Lime", "Rum", "Soda water"]
+    },
+    {
+        "_id": 5,
+        "name": "Margarita",
+        "img_name": "mrag2.jpg",
+        "description": "Served with salt or sugar. Frozen or on the rocks.",
+        "price": "$9.00",
+        "ingredients": ["Tequila", "Lime", "Triple sec", "Salt/sugar"]
+    },
+    {
+        "_id": 6,
+        "name": "Mai Tai",
+        "img_name": "tai.jpg",
+        "description": "Made with house rum. Smoky and sweet.",
+        "price": "$7.00",
+        "ingredients": ["Rum", "Lime", "Syrup", "Orange curacao"]
+    },
+    {
+        "_id": 7,
+        "name": "Aperol Spritz",
+        "img_name": "spritz.jpg",
+        "description": "Wine based. An Italian favorite.",
+        "price": "$10.00",
+        "ingredients": ["Aperol", "Prosecco", "Soda water"]
+    },
+    {
+        "_id": 8,
+        "name": "Moscow Mule",
+        "img_name": "mule.jpg",
+        "description": "Vodka and ginger beer. Served in a copper mug.",
+        "price": "$9.50",
+        "ingredients": ["Vodka", "Ginger beer", "Lime"]
+    }
+]
